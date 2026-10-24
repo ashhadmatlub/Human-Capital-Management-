@@ -28,3 +28,6 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Runtime database (should not be committed – regenerated at first run)
+server/data/hcm_database.json

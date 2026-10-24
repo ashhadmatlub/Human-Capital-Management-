@@ -1,9 +1,9 @@
 {
   "settings": {
-    "company_name": "Human Capital Management ",
+    "company_name": "hello world ",
     "office_start": "09:00",
-    "grace_minutes": 30,
-    "half_day_hours": 4,
+    "grace_minutes": 15,
+    "half_day_hours": 5,
     "weekend_days": [
       0,
       6
@@ -17,49 +17,49 @@
   },
   "users": [
     {
-      "id": "04d86afc-0888-451b-8993-7a5d862cef73",
+      "id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
       "email": "ashhadmatlub@gmail.com",
-      "password_hash": "$2b$10$uHtG.JwMhSfkv6ectiU/IO4MmTq8y3mvYPclEW20LNfpIM7vAXK9a",
+      "password_hash": "$2b$10$sRvGB52gwqEP2flwieBWWOhi/Zg8S0ogY9q2NJ.IKwMRX2SAjGxlW",
       "role": "admin",
       "is_active": true,
       "must_change_password": false,
-      "created_at": "2026-10-24T21:15:51.281Z"
+      "created_at": "2026-10-24T23:44:10.979Z"
     }
   ],
   "departments": [],
   "designations": [],
   "leave_types": [
     {
-      "id": "be8bec55-1726-4da4-a926-05f81bd20791",
+      "id": "df048ef7-ea50-4309-836c-6db6882faa2e",
       "name": "Annual Leave",
       "code": "annual",
       "yearly_quota": 14,
       "is_unpaid": false,
-      "created_at": "2026-10-24T21:15:51.157Z"
+      "created_at": "2026-10-24T23:44:10.858Z"
     },
     {
-      "id": "0d0c7ff4-fba9-4a0c-b868-d407acf3682f",
+      "id": "0223e2f0-b5fd-4c5b-a072-1fe774475df6",
       "name": "Sick Leave",
       "code": "sick",
       "yearly_quota": 8,
       "is_unpaid": false,
-      "created_at": "2026-10-24T21:15:51.159Z"
+      "created_at": "2026-10-24T23:44:10.859Z"
     },
     {
-      "id": "9597ef84-b2fb-4e08-93a3-8c0fa99de0d9",
+      "id": "508d8dda-2a96-42d5-9c4b-86641274e1c3",
       "name": "Casual Leave",
       "code": "casual",
       "yearly_quota": 10,
       "is_unpaid": false,
-      "created_at": "2026-10-24T21:15:51.160Z"
+      "created_at": "2026-10-24T23:44:10.859Z"
     },
     {
-      "id": "e7067947-3924-4f55-90dd-c396ca5d5fd4",
+      "id": "c6f813cc-b57d-4106-bbfa-f722a91f8d41",
       "name": "Unpaid Leave",
       "code": "unpaid",
       "yearly_quota": 999999,
       "is_unpaid": true,
-      "created_at": "2026-10-24T21:15:51.161Z"
+      "created_at": "2026-10-24T23:44:10.860Z"
     }
   ],
   "public_holidays": [],
@@ -73,28 +73,68 @@
   "notifications": [],
   "audit_logs": [
     {
-      "id": "672b931b-0b55-45b2-9cf9-a5118a4603f1",
-      "actor_id": "04d86afc-0888-451b-8993-7a5d862cef73",
+      "id": "3c4249b6-666c-448e-8e13-459b31ce6ad8",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
       "actor_name": "ashhadmatlub@gmail.com",
       "actor_role": "admin",
       "action": "USER_LOGIN",
       "entity": "users",
-      "entity_id": "04d86afc-0888-451b-8993-7a5d862cef73",
-      "created_at": "2026-10-24T21:15:51.393Z"
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:53:53.065Z"
     },
     {
-      "id": "140237eb-d010-45fb-92ec-0067ea377ff1",
-      "actor_id": "04d86afc-0888-451b-8993-7a5d862cef73",
+      "id": "195e0042-396a-44b6-a542-b8ba972a7cab",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:45:48.154Z"
+    },
+    {
+      "id": "75168cc8-c695-47d7-bf5b-46e183a1ef3b",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:44:24.755Z"
+    },
+    {
+      "id": "74c3c98b-4ddf-44bc-84b9-c9a20f31ba48",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:44:11.110Z"
+    },
+    {
+      "id": "1e1ecf1a-be42-47d7-bd27-d27b026a3293",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
       "actor_name": "ashhadmatlub@gmail.com",
       "actor_role": "admin",
       "action": "FIRST_RUN_SETUP",
       "entity": "organization",
-      "entity_id": "04d86afc-0888-451b-8993-7a5d862cef73",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
       "after_state": {
-        "company_name": "Human Capital Management "
+        "company_name": "hello world "
       },
-      "created_at": "2026-10-24T21:15:51.286Z"
+      "created_at": "2026-10-24T23:44:10.989Z"
     }
   ],
-  "ai_logs": []
+  "ai_logs": [
+    {
+      "id": "cec74e2d-1fad-43c2-ad6d-8cac0ea6c0e2",
+      "user_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "user_role": "admin",
+      "prompt": "how to knwo the details",
+      "tool_called": "general_qna",
+      "result_summary": "Shown guidance menu",
+      "created_at": "2026-10-24T23:50:56.016Z"
+    }
+  ]
 }

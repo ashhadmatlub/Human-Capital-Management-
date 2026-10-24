@@ -1714,3 +1714,85 @@ textarea:disabled {
     grid-template-columns: 1fr;
   }
 }
+
+/* ─── Auth Enhancements ──────────────────────────────────────────────────── */
+
+/* Show/hide password toggle button inside input */
+.input-icon-btn {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  transition: color 0.15s;
+}
+.input-icon-btn:hover { color: var(--text); }
+
+/* Required field asterisk */
+.required {
+  color: var(--error);
+  margin-left: 2px;
+}
+
+/* Ghost small button — for back-to-login / info toggle links */
+.btn-ghost-small {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px 0;
+  transition: color 0.15s;
+  font-family: inherit;
+}
+.btn-ghost-small:hover { color: var(--green); }
+
+/* "How do I get an account?" info section */
+.login-signup-note {
+  margin-top: 12px;
+}
+
+.signup-info-box {
+  margin-top: 10px;
+  background-color: rgba(16, 25, 35, 0.9);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+.signup-info-box p { margin-bottom: 8px; }
+.signup-info-box ul { padding-left: 4px; list-style: none; }
+.signup-info-box ul li { margin-bottom: 4px; }
+.signup-info-box strong { color: var(--text); }
+
+/* Setup → Login back link */
+.setup-login-link,
+.login-setup-link {
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* "Already set up? Sign in" link below setup form */
+.setup-login-link {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 16px;
+}
+
+/* Setup actions area */
+.setup-actions {
+  padding-top: 4px;
+}
+
+/* Input with icon — ensure right-side icon btn doesn't overlap */
+.input-with-icon input {
+  padding-right: 38px;
+}

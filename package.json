@@ -8,8 +8,12 @@
     "server": "tsx watch server/index.ts",
     "client": "vite",
     "build": "tsc -b && vite build",
+    "start": "node --loader tsx/esm server/index.ts",
     "lint": "oxlint",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
