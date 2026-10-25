@@ -1,6 +1,6 @@
 {
   "settings": {
-    "company_name": "Saylani Tech Solutions",
+    "company_name": "hello world ",
     "office_start": "09:00",
     "grace_minutes": 15,
     "half_day_hours": 5,
@@ -17,283 +17,156 @@
   },
   "users": [
     {
-      "id": "8c318ffe-50f3-44ad-8bdc-4a4c86e3c9df",
-      "email": "admin@saylani.com",
-      "password_hash": "$2b$10$xa8XP1k7hGcsBi4GTLR1vO4PZC0vUU01hXrpNkCY8sdss6rqO1EZq",
+      "id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "email": "ashhadmatlub@gmail.com",
+      "password_hash": "$2b$10$sRvGB52gwqEP2flwieBWWOhi/Zg8S0ogY9q2NJ.IKwMRX2SAjGxlW",
       "role": "admin",
       "is_active": true,
       "must_change_password": false,
-      "created_at": "2026-10-25T00:04:22.753Z"
+      "created_at": "2026-10-24T23:44:10.979Z"
     },
     {
-      "id": "4e42026a-915c-4841-bcb4-b72cecece1f9",
-      "email": "hr@saylani.com",
-      "password_hash": "$2b$10$GS2gbj1a4bp1jMrl8nQ4E.QHRAq6ALe.YN3ilZi9HaOWUJfSGCrGa",
+      "id": "4b5030b7-9594-49fc-931c-2470126fb354",
+      "email": "123@gmail.com",
+      "password_hash": "$2b$10$UzXCpgV6UuS.D/tuRv8MSeXTavoWahXxT2IRBkB1EA55NW.qDqafu",
       "role": "hr",
       "is_active": true,
       "must_change_password": false,
-      "created_at": "2026-10-25T00:04:22.902Z"
-    },
-    {
-      "id": "886beede-07c3-4b26-a4dc-7c0158534e53",
-      "email": "ali.khan@saylani.com",
-      "password_hash": "$2b$10$npwIAAvV0t25A.BG.TWJE.cAp7VJjHOKJ1xMbnklkXk.7uvJCQCh.",
-      "role": "employee",
-      "employee_id": "3d4b04da-6576-41d5-a8f1-925e93b3636a",
-      "must_change_password": false,
-      "is_active": true,
-      "created_at": "2026-10-25T00:04:23.172Z"
-    },
-    {
-      "id": "73afb541-6c79-42e5-8da5-f30584512776",
-      "email": "fatima.ahmed@saylani.com",
-      "password_hash": "$2b$10$Zh0yd3HT5v1MJJTF5XjxEeu2o8hmoSChRWZ6bEfyk1Wbs6T3IAqHC",
-      "role": "employee",
-      "employee_id": "92c95a24-b83f-4aa3-9aeb-8835c9f4af18",
-      "must_change_password": true,
-      "is_active": true,
-      "created_at": "2026-10-25T00:04:23.313Z"
+      "created_at": "2026-10-25T00:15:36.989Z"
     }
   ],
-  "departments": [
-    {
-      "id": "00459b84-5311-4b2b-b6b4-c922743073a0",
-      "name": "Software Engineering",
-      "code": "ENG",
-      "created_at": "2026-10-25T00:04:22.760Z"
-    }
-  ],
-  "designations": [
-    {
-      "id": "a1002332-41bf-4d49-beb0-e1e367ccef3a",
-      "name": "Senior Fullstack Engineer",
-      "department_id": "00459b84-5311-4b2b-b6b4-c922743073a0",
-      "created_at": "2026-10-25T00:04:22.761Z"
-    }
-  ],
+  "departments": [],
+  "designations": [],
   "leave_types": [
     {
-      "id": "6ac4a4e3-b43d-42f2-955a-20e7647e3f98",
+      "id": "df048ef7-ea50-4309-836c-6db6882faa2e",
       "name": "Annual Leave",
       "code": "annual",
       "yearly_quota": 14,
       "is_unpaid": false,
-      "created_at": "2026-10-25T00:04:22.591Z"
+      "created_at": "2026-10-24T23:44:10.858Z"
     },
     {
-      "id": "1f94e63e-93c9-485c-8efe-227509055031",
+      "id": "0223e2f0-b5fd-4c5b-a072-1fe774475df6",
       "name": "Sick Leave",
       "code": "sick",
       "yearly_quota": 8,
       "is_unpaid": false,
-      "created_at": "2026-10-25T00:04:22.594Z"
+      "created_at": "2026-10-24T23:44:10.859Z"
     },
     {
-      "id": "8446832a-7404-4a59-b114-ebc661c66d24",
+      "id": "508d8dda-2a96-42d5-9c4b-86641274e1c3",
       "name": "Casual Leave",
       "code": "casual",
       "yearly_quota": 10,
       "is_unpaid": false,
-      "created_at": "2026-10-25T00:04:22.596Z"
+      "created_at": "2026-10-24T23:44:10.859Z"
     },
     {
-      "id": "0cff79aa-a2dd-4578-80a6-98d43519ee28",
+      "id": "c6f813cc-b57d-4106-bbfa-f722a91f8d41",
       "name": "Unpaid Leave",
       "code": "unpaid",
       "yearly_quota": 999999,
       "is_unpaid": true,
-      "created_at": "2026-10-25T00:04:22.597Z"
+      "created_at": "2026-10-24T23:44:10.860Z"
     }
   ],
   "public_holidays": [],
-  "employees": [
-    {
-      "id": "3d4b04da-6576-41d5-a8f1-925e93b3636a",
-      "employee_code": "EMP-101",
-      "first_name": "Ali",
-      "last_name": "Khan",
-      "email": "ali.khan@saylani.com",
-      "phone": "+92 300 1234567",
-      "address": "Gulshan-e-Iqbal, Karachi",
-      "gender": "male",
-      "date_of_birth": "1996-05-12",
-      "join_date": "2026-01-15",
-      "status": "active",
-      "department_id": "00459b84-5311-4b2b-b6b4-c922743073a0",
-      "designation_id": "a1002332-41bf-4d49-beb0-e1e367ccef3a",
-      "basic_salary": 80000,
-      "hra": 32000,
-      "medical_allowance": 8000,
-      "gross_salary": 120000,
-      "created_at": "2026-10-25T00:04:23.035Z"
-    },
-    {
-      "id": "92c95a24-b83f-4aa3-9aeb-8835c9f4af18",
-      "employee_code": "EMP-102",
-      "first_name": "Fatima",
-      "last_name": "Ahmed",
-      "email": "fatima.ahmed@saylani.com",
-      "phone": "+92 301 7654321",
-      "address": "Clifton, Karachi",
-      "gender": "female",
-      "date_of_birth": "1998-08-20",
-      "join_date": "2026-02-01",
-      "status": "active",
-      "department_id": "00459b84-5311-4b2b-b6b4-c922743073a0",
-      "designation_id": "a1002332-41bf-4d49-beb0-e1e367ccef3a",
-      "basic_salary": 100000,
-      "hra": 40000,
-      "medical_allowance": 10000,
-      "gross_salary": 150000,
-      "created_at": "2026-10-25T00:04:23.174Z"
-    }
-  ],
-  "attendance": [
-    {
-      "id": "66a56b5f-cab7-4bcf-b3a6-2ce59c211151",
-      "employee_id": "3d4b04da-6576-41d5-a8f1-925e93b3636a",
-      "date": "2026-10-25",
-      "check_in": "2026-10-25T00:04:23.599Z",
-      "status": "late",
-      "source": "web",
-      "created_at": "2026-10-25T00:04:23.599Z"
-    },
-    {
-      "id": "210a35d2-9956-4cb5-8a67-51ae955b2894",
-      "employee_id": "92c95a24-b83f-4aa3-9aeb-8835c9f4af18",
-      "date": "2026-10-25",
-      "check_in": "2026-10-25T00:04:23.602Z",
-      "status": "late",
-      "source": "camera",
-      "lat": 24.8607,
-      "lng": 67.0011,
-      "created_at": "2026-10-25T00:04:23.602Z"
-    }
-  ],
+  "employees": [],
+  "attendance": [],
   "attendance_corrections": [],
-  "leave_requests": [
-    {
-      "id": "08928a72-39ab-4b29-9415-cffdcb858403",
-      "employee_id": "3d4b04da-6576-41d5-a8f1-925e93b3636a",
-      "leave_type_id": "8446832a-7404-4a59-b114-ebc661c66d24",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-28",
-      "days_count": 2,
-      "reason": "next Monday and Tuesday off for my sister wedding",
-      "status": "approved",
-      "created_at": "2026-10-25T00:04:23.611Z",
-      "reviewer_id": "4e42026a-915c-4841-bcb4-b72cecece1f9",
-      "reviewer_comment": "Approved. Enjoy the family celebration!",
-      "reviewed_at": "2026-10-25T00:04:23.613Z"
-    }
-  ],
-  "payroll_runs": [
-    {
-      "id": "f7bf5fd4-a222-45fe-8eaf-6717e6dac0cf",
-      "month": "2026-10",
-      "status": "finalized",
-      "total_gross": 270000,
-      "total_deductions": 247826,
-      "total_tax": 15500,
-      "total_net": 10152,
-      "working_days": 23,
-      "created_by": "4e42026a-915c-4841-bcb4-b72cecece1f9",
-      "created_at": "2026-10-25T00:04:23.621Z",
-      "finalized_by": "8c318ffe-50f3-44ad-8bdc-4a4c86e3c9df",
-      "finalized_at": "2026-10-25T00:04:23.679Z"
-    }
-  ],
-  "payslips": [
-    {
-      "id": "7937feca-1e70-4bc3-ad0b-4856c8577117",
-      "payroll_run_id": "f7bf5fd4-a222-45fe-8eaf-6717e6dac0cf",
-      "employee_id": "3d4b04da-6576-41d5-a8f1-925e93b3636a",
-      "month": "2026-10",
-      "basic_salary": 80000,
-      "hra": 32000,
-      "medical_allowance": 8000,
-      "gross_salary": 120000,
-      "absent_days": 20,
-      "unpaid_leave_days": 0,
-      "half_days": 0,
-      "worked_days": 1,
-      "deductions": 104348,
-      "taxable_income": 1440000,
-      "tax": 5500,
-      "net_salary": 10152,
-      "status": "paid",
-      "created_at": "2026-10-25T00:04:23.621Z"
-    },
-    {
-      "id": "086b339a-8643-4149-b8a9-da1ba6b6969d",
-      "payroll_run_id": "f7bf5fd4-a222-45fe-8eaf-6717e6dac0cf",
-      "employee_id": "92c95a24-b83f-4aa3-9aeb-8835c9f4af18",
-      "month": "2026-10",
-      "basic_salary": 100000,
-      "hra": 40000,
-      "medical_allowance": 10000,
-      "gross_salary": 150000,
-      "absent_days": 22,
-      "unpaid_leave_days": 0,
-      "half_days": 0,
-      "worked_days": 1,
-      "deductions": 143478,
-      "taxable_income": 1800000,
-      "tax": 10000,
-      "net_salary": 0,
-      "status": "paid",
-      "created_at": "2026-10-25T00:04:23.621Z"
-    }
-  ],
+  "leave_requests": [],
+  "payroll_runs": [],
+  "payslips": [],
   "announcements": [],
-  "notifications": [
+  "notifications": [],
+  "audit_logs": [
     {
-      "id": "7ad52b68-892b-47af-940e-ca17a4c5d164",
-      "user_id": "73afb541-6c79-42e5-8da5-f30584512776",
-      "title": "Payslip Ready",
-      "message": "Your payslip for 2026-10 is now available for download. Net Pay: 0",
-      "type": "payroll",
-      "is_read": false,
-      "created_at": "2026-10-25T00:04:23.681Z"
+      "id": "a5618bef-ba3b-4776-b37a-62e4f68c6bf4",
+      "actor_id": "4b5030b7-9594-49fc-931c-2470126fb354",
+      "actor_name": "123@gmail.com",
+      "actor_role": "hr",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "4b5030b7-9594-49fc-931c-2470126fb354",
+      "created_at": "2026-10-25T00:16:05.125Z"
     },
     {
-      "id": "16599627-cfd2-474d-8b5f-c547849893d7",
-      "user_id": "886beede-07c3-4b26-a4dc-7c0158534e53",
-      "title": "Payslip Ready",
-      "message": "Your payslip for 2026-10 is now available for download. Net Pay: 10,152",
-      "type": "payroll",
-      "is_read": false,
-      "created_at": "2026-10-25T00:04:23.681Z"
+      "id": "4faaefd1-b4a4-4315-b53e-ca331b8551e3",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "CREATE_HR_USER",
+      "entity": "users",
+      "entity_id": "4b5030b7-9594-49fc-931c-2470126fb354",
+      "after_state": {
+        "email": "123@gmail.com"
+      },
+      "created_at": "2026-10-25T00:15:36.990Z"
     },
     {
-      "id": "b2f5f73d-7a1c-4542-9bbc-fc8ac73bc57b",
-      "user_id": "886beede-07c3-4b26-a4dc-7c0158534e53",
-      "title": "Leave Request Approved",
-      "message": "Your leave request for 2 day(s) from 2026-10-27 to 2026-10-28 was approved. Note: \"Approved. Enjoy the family celebration!\"",
-      "type": "leave",
-      "is_read": false,
-      "created_at": "2026-10-25T00:04:23.614Z"
+      "id": "3c4249b6-666c-448e-8e13-459b31ce6ad8",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:53:53.065Z"
+    },
+    {
+      "id": "195e0042-396a-44b6-a542-b8ba972a7cab",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:45:48.154Z"
+    },
+    {
+      "id": "75168cc8-c695-47d7-bf5b-46e183a1ef3b",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:44:24.755Z"
+    },
+    {
+      "id": "74c3c98b-4ddf-44bc-84b9-c9a20f31ba48",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "USER_LOGIN",
+      "entity": "users",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "created_at": "2026-10-24T23:44:11.110Z"
+    },
+    {
+      "id": "1e1ecf1a-be42-47d7-bd27-d27b026a3293",
+      "actor_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "actor_name": "ashhadmatlub@gmail.com",
+      "actor_role": "admin",
+      "action": "FIRST_RUN_SETUP",
+      "entity": "organization",
+      "entity_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "after_state": {
+        "company_name": "hello world "
+      },
+      "created_at": "2026-10-24T23:44:10.989Z"
     }
   ],
-  "audit_logs": [],
   "ai_logs": [
     {
-      "id": "af4c29ea-2cfe-4582-b9a7-8ac6c66750b4",
-      "user_id": "886beede-07c3-4b26-a4dc-7c0158534e53",
-      "user_role": "employee",
-      "prompt": "What is Fatima salary?",
-      "tool_called": "refuse_colleague_salary",
-      "result_summary": "Refused colleague salary inquiry",
-      "created_at": "2026-10-25T00:04:23.619Z"
-    },
-    {
-      "id": "aa521de6-30a7-4884-ad89-7afc1323f7a9",
-      "user_id": "886beede-07c3-4b26-a4dc-7c0158534e53",
-      "user_role": "employee",
-      "prompt": "How many sick leaves do I have left this year?",
-      "tool_called": "get_my_leave_balance",
-      "result_summary": "Returned own leave balance",
-      "created_at": "2026-10-25T00:04:23.618Z"
+      "id": "cec74e2d-1fad-43c2-ad6d-8cac0ea6c0e2",
+      "user_id": "a12b4d9e-db3b-4d2c-84e8-207312f0e8f9",
+      "user_role": "admin",
+      "prompt": "how to knwo the details",
+      "tool_called": "general_qna",
+      "result_summary": "Shown guidance menu",
+      "created_at": "2026-10-24T23:50:56.016Z"
     }
   ]
 }
