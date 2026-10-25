@@ -77,7 +77,7 @@ const MainLayout: React.FC = () => {
 
     return (
       <LoginView
-        onGoToSetup={setupCompleted === false ? () => setAuthScreen('setup') : undefined}
+        onGoToSetup={!setupCompleted ? () => setAuthScreen('setup') : undefined}
       />
     );
   }
